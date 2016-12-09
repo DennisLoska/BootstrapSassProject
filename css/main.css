@@ -89,6 +89,7 @@ textarea,
 button {
   border-radius: 0; }
 
+/* MODULES - Individual site components */
 p {
   font-size: 0.8rem;
   line-height: 1.3; }
@@ -111,7 +112,6 @@ h5 {
 small {
   font-size: 0.8rem; }
 
-/* MODULES - Individual site components */
 /* LAYOUT - Page layout styles */
 
 /*# sourceMappingURL=main.css.map */
