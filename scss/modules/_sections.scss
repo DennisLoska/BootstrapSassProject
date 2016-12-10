@@ -4,11 +4,20 @@
     height: $showcase-height;
     text-align: center;
     background-color: whitesmoke;
+    margin-bottom: 20px;
+    background-image: url(../../img/showcase.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     h2 {
         margin-top: 180px;
         margin-bottom: 20px;
         font-size: 4.5em;
+        text-shadow: 2px 2px #ffffff;
         color: $primary;
+    }
+    p {
+        color: white;
+        text-shadow: 1px 1px orange;
     }
 }
 
@@ -38,5 +47,17 @@
     a.list-group-item:focus,
     button.list-group-item:focus {
         background-color: $primary;
+    }
+    .col-sm-8 {
+        article {
+            padding: 5% 15% 5% 15%;
+            margin-bottom: 20px;
+            background-color: whitesmoke;
+            span {
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
     }
 }

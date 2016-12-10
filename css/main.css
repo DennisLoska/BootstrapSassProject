@@ -91,6 +91,11 @@ textarea,
 button {
   border-radius: 0; }
 
+body {
+  background-image: url(../../img/wild_oliva_@2X.png);
+  background-attachment: fixed;
+  background-repeat: repeat; }
+
 /* MODULES - Individual site components */
 p {
   font-size: 0.8rem;
@@ -118,12 +123,20 @@ small {
 .section-showcase {
   height: 400px;
   text-align: center;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  background-image: url(../../img/showcase.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
   .section-showcase h2 {
     margin-top: 180px;
     margin-bottom: 20px;
     font-size: 4.5em;
+    text-shadow: 2px 2px #ffffff;
     color: orange; }
+  .section-showcase p {
+    color: white;
+    text-shadow: 1px 1px orange; }
 
 .section-introduction .container {
   width: 100%; }
@@ -146,6 +159,14 @@ small {
 .section-introduction a.list-group-item:focus,
 .section-introduction button.list-group-item:focus {
   background-color: orange; }
+.section-introduction .col-sm-8 article {
+  padding: 5% 15% 5% 15%;
+  margin-bottom: 20px;
+  background-color: whitesmoke; }
+  .section-introduction .col-sm-8 article span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 /* LAYOUT - Page layout styles */
 .navbar a {
@@ -162,8 +183,9 @@ small {
   background-color: orange; }
 
 .footerWrapper {
-  background-color: #101010;
   min-height: 300px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-image: url(../../img/footer_lodyas.png);
+  background-repeat: repeat; }
 
 /*# sourceMappingURL=main.css.map */
