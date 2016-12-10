@@ -5,9 +5,38 @@
     text-align: center;
     background-color: whitesmoke;
     h2 {
-        margin-top: 200px;
+        margin-top: 180px;
         margin-bottom: 20px;
         font-size: 4.5em;
         color: $primary;
+    }
+}
+
+.section-introduction {
+    .container {
+        width: 100%;
+    }
+    .landingArticle {
+        padding: 5%;
+        background-color: darkorange;
+        margin-bottom: 20px;
+        h3 {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    }
+    .list-group-item.active,
+    .list-group-item.active:hover,
+    .list-group-item.active:focus {
+        background-color: $primary;
+        border-color: $primary;
+    }
+    a.list-group-item:hover,
+    button.list-group-item:hover,
+    a.list-group-item:focus,
+    button.list-group-item:focus {
+        background-color: $primary;
     }
 }

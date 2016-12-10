@@ -120,10 +120,32 @@ small {
   text-align: center;
   background-color: whitesmoke; }
   .section-showcase h2 {
-    margin-top: 200px;
+    margin-top: 180px;
     margin-bottom: 20px;
     font-size: 4.5em;
     color: orange; }
+
+.section-introduction .container {
+  width: 100%; }
+.section-introduction .landingArticle {
+  padding: 5%;
+  background-color: darkorange;
+  margin-bottom: 20px; }
+  .section-introduction .landingArticle h3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px; }
+.section-introduction .list-group-item.active,
+.section-introduction .list-group-item.active:hover,
+.section-introduction .list-group-item.active:focus {
+  background-color: orange;
+  border-color: orange; }
+.section-introduction a.list-group-item:hover,
+.section-introduction button.list-group-item:hover,
+.section-introduction a.list-group-item:focus,
+.section-introduction button.list-group-item:focus {
+  background-color: orange; }
 
 /* LAYOUT - Page layout styles */
 .navbar a {
@@ -138,5 +160,10 @@ small {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   background-color: orange; }
+
+.footerWrapper {
+  background-color: #101010;
+  min-height: 300px;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */
