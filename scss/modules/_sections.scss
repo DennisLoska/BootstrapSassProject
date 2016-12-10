@@ -11,7 +11,7 @@
     h2 {
         margin-top: 180px;
         margin-bottom: 20px;
-        font-size: 4.5em;
+        font-size: 4em;
         text-shadow: 2px 2px #ffffff;
         color: $primary;
     }
@@ -27,7 +27,7 @@
     }
     .landingArticle {
         padding: 5%;
-        background-color: darkorange;
+        background-color: orange;
         margin-bottom: 20px;
         h3 {
             width: 80%;
@@ -53,11 +53,62 @@
             padding: 5% 15% 5% 15%;
             margin-bottom: 20px;
             background-color: whitesmoke;
-            span {
+            min-height: 200px;
+            span.author {
                 display: block;
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
+            .read-more-state {
+                display: none;
+            }
+            .read-more-target {
+                opacity: 0;
+                max-height: 0;
+                font-size: 0;
+                transition: .25s ease;
+            }
+            .read-more-state:checked ~ .read-more-wrap .read-more-target {
+                opacity: 1;
+                font-size: inherit;
+                max-height: 999em;
+            }
+            .read-more-state ~ .read-more-trigger:before {
+                content: 'Show more';
+            }
+            .read-more-state:checked ~ .read-more-trigger:before {
+                content: 'Show less';
+            }
+            .read-more-trigger {
+                cursor: pointer;
+                display: inline-block;
+                margin-top: 20px;
+                padding: 0 .5em;
+                color: black;
+                font-size: .9em;
+                line-height: 2;
+                border: 1px solid $primary;
+                border-radius: .25em;
+            }
+        }
+    }
+}
+
+
+/* Media Queries for mobile devices */
+
+@media screen and (max-width: 800px) {
+    .section-showcase {
+        background-position: top;
+        h2 {
+            margin-top: 150px;
+            font-size: 2.5em;
+        }
+    }
+    .col-sm-8 {
+        article {
+            padding: 5% !important;
+            ;
         }
     }
 }

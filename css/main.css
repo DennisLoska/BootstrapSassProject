@@ -131,7 +131,7 @@ small {
   .section-showcase h2 {
     margin-top: 180px;
     margin-bottom: 20px;
-    font-size: 4.5em;
+    font-size: 4em;
     text-shadow: 2px 2px #ffffff;
     color: orange; }
   .section-showcase p {
@@ -142,7 +142,7 @@ small {
   width: 100%; }
 .section-introduction .landingArticle {
   padding: 5%;
-  background-color: darkorange;
+  background-color: orange;
   margin-bottom: 20px; }
   .section-introduction .landingArticle h3 {
     width: 80%;
@@ -162,12 +162,48 @@ small {
 .section-introduction .col-sm-8 article {
   padding: 5% 15% 5% 15%;
   margin-bottom: 20px;
-  background-color: whitesmoke; }
-  .section-introduction .col-sm-8 article span {
+  background-color: whitesmoke;
+  min-height: 200px; }
+  .section-introduction .col-sm-8 article span.author {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .section-introduction .col-sm-8 article .read-more-state {
+    display: none; }
+  .section-introduction .col-sm-8 article .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease; }
+  .section-introduction .col-sm-8 article .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em; }
+  .section-introduction .col-sm-8 article .read-more-state ~ .read-more-trigger:before {
+    content: 'Show more'; }
+  .section-introduction .col-sm-8 article .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less'; }
+  .section-introduction .col-sm-8 article .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 .5em;
+    color: black;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid orange;
+    border-radius: .25em; }
 
+/* Media Queries for mobile devices */
+@media screen and (max-width: 800px) {
+  .section-showcase {
+    background-position: top; }
+    .section-showcase h2 {
+      margin-top: 150px;
+      font-size: 2.5em; }
+
+  .col-sm-8 article {
+    padding: 5% !important; } }
 /* LAYOUT - Page layout styles */
 .navbar a {
   color: white !important;
