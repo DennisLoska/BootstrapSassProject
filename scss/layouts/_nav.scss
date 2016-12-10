@@ -1,0 +1,17 @@
+        .navbar {
+            a {
+                color: white!important;
+                font-size: 20px;
+                min-height: 60px;
+                padding-top: 20px !important;
+            }
+            .navbar-toggle {
+                background-color: $primary;
+                margin-top: 15px;
+            }
+        }
+
+        .navbar-inverse .navbar-nav > li > a:hover,
+        .navbar-inverse .navbar-nav > li > a:focus {
+            background-color: $primary;
+        }

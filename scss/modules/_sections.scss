@@ -1,0 +1,13 @@
+/* different sections of the main-content */
+
+.section-showcase {
+    height: $showcase-height;
+    text-align: center;
+    background-color: whitesmoke;
+    h2 {
+        margin-top: 200px;
+        margin-bottom: 20px;
+        font-size: 4.5em;
+        color: $primary;
+    }
+}
