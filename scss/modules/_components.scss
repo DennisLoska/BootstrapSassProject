@@ -12,15 +12,20 @@
     @include border-radius(80px);
 }
 
- .list-group-item.active,
-    .list-group-item.active:hover,
-    .list-group-item.active:focus {
-        background-color: $primary;
-        border-color: $primary;
-    }
-    a.list-group-item:hover,
-    button.list-group-item:hover,
-    a.list-group-item:focus,
-    button.list-group-item:focus {
-        background-color: $primary;
-    }
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: $primary;
+    border-color: $primary;
+}
+
+a.list-group-item:hover,
+button.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:focus {
+    background-color: $primary;
+}
+
+.new {
+    color: $primary;
+}

@@ -180,16 +180,6 @@ small {
     margin: auto;
     text-align: center;
     padding-bottom: 20px; }
-.section-introduction .list-group-item.active,
-.section-introduction .list-group-item.active:hover,
-.section-introduction .list-group-item.active:focus {
-  background-color: orange;
-  border-color: orange; }
-.section-introduction a.list-group-item:hover,
-.section-introduction button.list-group-item:hover,
-.section-introduction a.list-group-item:focus,
-.section-introduction button.list-group-item:focus {
-  background-color: orange; }
 .section-introduction .col-sm-8 article {
   padding: 5% 15% 5% 15%;
   margin-bottom: 20px;
@@ -209,31 +199,6 @@ small {
     display: block;
     margin-top: 20px;
     margin-bottom: 10px; }
-  .section-introduction .col-sm-8 article .read-more-state {
-    display: none; }
-  .section-introduction .col-sm-8 article .read-more-target {
-    opacity: 0;
-    max-height: 0;
-    font-size: 0;
-    transition: .25s ease; }
-  .section-introduction .col-sm-8 article .read-more-state:checked ~ .read-more-wrap .read-more-target {
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em; }
-  .section-introduction .col-sm-8 article .read-more-state ~ .read-more-trigger:before {
-    content: 'Show more'; }
-  .section-introduction .col-sm-8 article .read-more-state:checked ~ .read-more-trigger:before {
-    content: 'Show less'; }
-  .section-introduction .col-sm-8 article .read-more-trigger {
-    cursor: pointer;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 0 .5em;
-    color: black;
-    font-size: .9em;
-    line-height: 2;
-    border: 1px solid orange;
-    border-radius: .25em; }
 
 /* Media Queries for mobile devices */
 @media screen and (max-width: 800px) {
@@ -268,6 +233,9 @@ button.list-group-item:hover,
 a.list-group-item:focus,
 button.list-group-item:focus {
   background-color: orange; }
+
+.new {
+  color: orange; }
 
 /* LAYOUT - Page layout styles */
 .navbar a {
