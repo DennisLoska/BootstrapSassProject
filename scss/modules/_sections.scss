@@ -51,7 +51,18 @@
     .col-sm-8 {
         article {
             h3 {
-                width: 90%;
+                .hotArticle {
+                    span {
+                        color: $primary;
+                        font-size: 1.2em;
+                        padding-left: 5px;
+                    }
+                }
+                .hotArticle:hover {
+                    text-decoration: none;
+                    background-color: yellow;
+                    @include border-radius(80px);
+                }
             }
             padding: 5% 15% 5% 15%;
             margin-bottom: 20px;
@@ -59,7 +70,7 @@
             min-height: 200px;
             span.author {
                 display: block;
-                margin-top: 10px;
+                margin-top: 40px;
                 margin-bottom: 10px;
             }
             .read-more-state {
@@ -92,12 +103,6 @@
                 line-height: 2;
                 border: 1px solid $primary;
                 border-radius: .25em;
-            }
-            .hotArticle {
-                span {
-                    color: $primary;
-                }
-                color: $primary;
             }
         }
     }

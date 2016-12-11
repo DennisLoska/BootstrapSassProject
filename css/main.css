@@ -164,11 +164,19 @@ small {
   margin-bottom: 20px;
   background-color: whitesmoke;
   min-height: 200px; }
-  .section-introduction .col-sm-8 article h3 {
-    width: 90%; }
+  .section-introduction .col-sm-8 article h3 .hotArticle span {
+    color: orange;
+    font-size: 1.2em;
+    padding-left: 5px; }
+  .section-introduction .col-sm-8 article h3 .hotArticle:hover {
+    text-decoration: none;
+    background-color: yellow;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px; }
   .section-introduction .col-sm-8 article span.author {
     display: block;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px; }
   .section-introduction .col-sm-8 article .read-more-state {
     display: none; }
@@ -195,10 +203,6 @@ small {
     line-height: 2;
     border: 1px solid orange;
     border-radius: .25em; }
-  .section-introduction .col-sm-8 article .hotArticle {
-    color: orange; }
-    .section-introduction .col-sm-8 article .hotArticle span {
-      color: orange; }
 
 /* Media Queries for mobile devices */
 @media screen and (max-width: 800px) {
