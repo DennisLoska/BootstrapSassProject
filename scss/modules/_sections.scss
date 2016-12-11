@@ -17,7 +17,7 @@
     }
     p {
         color: white;
-        text-shadow: 1px 1px orange;
+        text-shadow: 1px 1px $primary;
     }
 }
 
@@ -27,7 +27,7 @@
     }
     .landingArticle {
         padding: 5%;
-        background-color: orange;
+        background-color: $primary;
         margin-bottom: 20px;
         h3 {
             width: 80%;
