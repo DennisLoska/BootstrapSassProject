@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>First Bootstrap & SASS Project</title>
+    <title>Dev-Blog</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -31,7 +31,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://www.blog.nowsee.me">HTML | CSS | JS</a>
+                    <a class="navbar-brand" id="nav-brand" href="http://www.blog.nowsee.me">HTML | CSS | JS</a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -60,26 +60,18 @@
         <section class="section-introduction">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-2">
-                        <div class="list-group">
-                            <a href="#" class="list-group-item topic active">Article by Topic</a>
-                            <a href="#" class="list-group-item topic new"><span class="glyphicon glyphicon-fire"></span> New</a>
-                            <a href="#" class="list-group-item topic html">
-                                <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="18" alt="HTML5" title="HTML5"> HTML
-                            </a>
-                            <a href="#" class="list-group-item topic css"><i class="fa fa-css3" aria-hidden="true"></i> CSS</a>
-                            <a href="#" class="list-group-item topic js"><b>JS</b> Javascript</a>
-                            <a href="#" class="list-group-item topic java"><i class="fa fa-code" aria-hidden="true"></i> Java</a>
-                            <a href="#" class="list-group-item topic other"><i class="fa fa-comment" aria-hidden="true"></i> Other</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-12 landingRow">
                         <div class="landingArticle">
                             <h3>My thoughts about frontend-frameworks and workflow in general.</h3>
                             <p>This blog itself is just another manifestation of different approaches on how to create a website. Which frameworks and preprocessor should be used? Should I bother with commands in the terminal or just use GUI-applications for my workflow? What works best in a team? I want to give my humble opinion on that topic, since I´m quiet new to this field of work. My goal with this blog is to give you some insights to my workflow and the technologies I have already worked with. Maybe you can help me to improve here and there and if you find something useful on this site for yourself it´s even better. Have a great time!</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 articles">
                         <div>
-
                             <article>
                                 <h3><a href="#" class="hotArticle"><span class="glyphicon glyphicon-fire"> </span> </a>How did I start developing websites and software?</h3>
 
@@ -105,12 +97,20 @@
                                 </p>
                                 <label for="post-3" class="read-more-trigger"></label>
                             </article>
-
                         </div>
-
                     </div>
-
                     <div class="col-sm-2">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item topic active">Article by Topic</a>
+                            <a href="#" class="list-group-item topic new"><span class="glyphicon glyphicon-fire"></span> New</a>
+                            <a href="#" class="list-group-item topic html">
+                                <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="18" alt="HTML5" title="HTML5"> HTML
+                            </a>
+                            <a href="#" class="list-group-item topic css"><i class="fa fa-css3" aria-hidden="true"></i> CSS</a>
+                            <a href="#" class="list-group-item topic js"><b>JS</b> Javascript</a>
+                            <a href="#" class="list-group-item topic java"><i class="fa fa-code" aria-hidden="true"></i> Java</a>
+                            <a href="#" class="list-group-item topic other"><i class="fa fa-comment" aria-hidden="true"></i> Other</a>
+                        </div>
                         <div class="list-group">
                             <a href="#" class="list-group-item active">Interesting Technology</a>
                             <a href="https://getmdl.io/index.html" target="_blank" class="list-group-item">Material Design Lite</a>

@@ -95,6 +95,10 @@ body {
   background-image: url(../../img/wild_oliva_@2X.png);
   background-attachment: fixed;
   background-repeat: repeat; }
+  body article {
+    background-image: url(../../img/lil_fiber_@2X.png);
+    background-attachment: fixed;
+    background-repeat: repeat; }
 
 /* MODULES - Individual site components */
 p {
@@ -118,6 +122,15 @@ h5 {
 
 small {
   font-size: 0.8rem; }
+
+ /*
+.col-sm-8 {
+        background: linear-gradient(to bottom, white 0%, orange 80%);
+        background-attachment: fixed;
+    }
+*/
+.landingRow {
+  padding: 0 0 0 0; }
 
 .read-more-state {
   display: none; }
@@ -152,15 +165,15 @@ small {
 
 /* different sections of the main-content */
 .section-showcase {
-  height: 400px;
+  height: 560px;
   text-align: center;
   background-color: whitesmoke;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   background-image: url(../../img/showcase.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat; }
   .section-showcase h2 {
-    margin-top: 180px;
+    margin-top: 20%;
     margin-bottom: 20px;
     font-size: 4em;
     text-shadow: 2px 2px #ffffff;
@@ -172,30 +185,33 @@ small {
 .section-introduction .container {
   width: 100%; }
 .section-introduction .landingArticle {
-  padding: 5%;
+  padding: 5% 28% 6% 28%;
   background-color: orange;
-  margin-bottom: 20px; }
+  background: linear-gradient(white 0%, orange 125%);
+  background-attachment: fixed;
+  margin-bottom: 20px;
+  margin-top: 0; }
   .section-introduction .landingArticle h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-bottom: 20px; }
-.section-introduction .col-sm-8 article {
+    padding-bottom: 30px; }
+.section-introduction .articles article {
   padding: 5% 15% 5% 15%;
   margin-bottom: 20px;
   background-color: whitesmoke;
   min-height: 200px; }
-  .section-introduction .col-sm-8 article h3 .hotArticle span {
+  .section-introduction .articles article h3 .hotArticle span {
     color: orange;
     font-size: 1.2em;
     padding-left: 5px; }
-  .section-introduction .col-sm-8 article h3 .hotArticle:hover {
+  .section-introduction .articles article h3 .hotArticle:hover {
     text-decoration: none;
     background-color: yellow;
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px; }
-  .section-introduction .col-sm-8 article span.author {
+  .section-introduction .articles article span.author {
     display: block;
     margin-top: 20px;
     margin-bottom: 10px; }
@@ -205,10 +221,10 @@ small {
   .section-showcase {
     background-position: top; }
     .section-showcase h2 {
-      margin-top: 150px;
+      margin-top: 200px;
       font-size: 2.5em; }
 
-  .col-sm-8 article {
+  .articles article {
     padding: 5% !important; } }
 .hotArticle span {
   color: orange;
@@ -262,12 +278,12 @@ button.list-group-item:focus {
   background-color: orange;
   margin-top: 15px; }
 
+#nav-brand {
+  color: orange !important; }
+
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   background-color: orange; }
-
-.navbar-brand {
-  text-decoration-color: orange; }
 
 .footerWrapper {
   min-height: 300px;

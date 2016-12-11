@@ -4,12 +4,12 @@
     height: $showcase-height;
     text-align: center;
     background-color: whitesmoke;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     background-image: url(../../img/showcase.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     h2 {
-        margin-top: 180px;
+        margin-top: 20%;
         margin-bottom: 20px;
         font-size: 4em;
         text-shadow: 2px 2px #ffffff;
@@ -26,17 +26,20 @@
         width: 100%;
     }
     .landingArticle {
-        padding: 5%;
+        padding: 5% 28% 6% 28%;
         background-color: $primary;
+        background: linear-gradient(white 0%, $primary 125%);
+        background-attachment: fixed;
         margin-bottom: 20px;
+        margin-top: 0;
         h3 {
             width: 80%;
             margin: auto;
             text-align: center;
-            padding-bottom: 20px;
+            padding-bottom: 30px;
         }
     }
-    .col-sm-8 {
+    .articles {
         article {
             h3 {
                 .hotArticle {
@@ -72,11 +75,11 @@
     .section-showcase {
         background-position: top;
         h2 {
-            margin-top: 150px;
+            margin-top: 200px;
             font-size: 2.5em;
         }
     }
-    .col-sm-8 {
+    .articles {
         article {
             padding: 5% !important;
             ;
