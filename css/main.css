@@ -164,6 +164,8 @@ small {
   margin-bottom: 20px;
   background-color: whitesmoke;
   min-height: 200px; }
+  .section-introduction .col-sm-8 article h3 {
+    width: 90%; }
   .section-introduction .col-sm-8 article span.author {
     display: block;
     margin-top: 10px;
@@ -193,6 +195,10 @@ small {
     line-height: 2;
     border: 1px solid orange;
     border-radius: .25em; }
+  .section-introduction .col-sm-8 article .hotArticle {
+    color: orange; }
+    .section-introduction .col-sm-8 article .hotArticle span {
+      color: orange; }
 
 /* Media Queries for mobile devices */
 @media screen and (max-width: 800px) {

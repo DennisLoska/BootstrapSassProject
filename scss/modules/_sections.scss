@@ -50,6 +50,9 @@
     }
     .col-sm-8 {
         article {
+            h3 {
+                width: 90%;
+            }
             padding: 5% 15% 5% 15%;
             margin-bottom: 20px;
             background-color: whitesmoke;
@@ -89,6 +92,12 @@
                 line-height: 2;
                 border: 1px solid $primary;
                 border-radius: .25em;
+            }
+            .hotArticle {
+                span {
+                    color: $primary;
+                }
+                color: $primary;
             }
         }
     }
