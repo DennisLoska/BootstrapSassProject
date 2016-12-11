@@ -235,7 +235,22 @@ button.list-group-item:focus {
   background-color: orange; }
 
 .new {
-  color: orange; }
+  color: orange !important; }
+
+.html i {
+  color: orange !important; }
+
+.css i {
+  color: #6699ff !important; }
+
+.js b {
+  color: darkgoldenrod; }
+
+.java i {
+  font-size: 1.3em; }
+
+.topic:hover {
+  color: black !important; }
 
 /* LAYOUT - Page layout styles */
 .navbar a {

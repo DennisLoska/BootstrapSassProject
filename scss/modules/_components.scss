@@ -27,5 +27,35 @@ button.list-group-item:focus {
 }
 
 .new {
-    color: $primary;
+    color: $primary !important;
+}
+
+.html {
+    i {
+        color: $primary !important;
+    }
+}
+
+.css {
+    i {
+        color: #6699ff !important;
+    }
+}
+
+.js {
+    b {
+        color: darkgoldenrod;
+    }
+}
+
+.java {
+    i {
+        font-size: 1.3em;
+    }
+}
+
+.other {}
+
+.topic:hover {
+    color: black !important;
 }
