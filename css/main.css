@@ -160,12 +160,12 @@ small {
   color: black;
   font-size: .9em;
   line-height: 2;
-  border: 1px solid orange;
+  border: 1px solid #2196F3;
   border-radius: .25em; }
 
 /* different sections of the main-content */
 .section-showcase {
-  height: 560px;
+  height: 1000px;
   text-align: center;
   background-color: whitesmoke;
   margin-bottom: 0;
@@ -173,24 +173,26 @@ small {
   background-attachment: fixed;
   background-repeat: no-repeat; }
   .section-showcase h2 {
-    margin-top: 20%;
+    margin-top: 40%;
     margin-bottom: 20px;
-    font-size: 4em;
-    text-shadow: 2px 2px #ffffff;
-    color: orange; }
-  .section-showcase p {
+    font-size: 6em;
+    text-shadow: 2px 2px #000000;
+    color: #2196F3; }
+  .section-showcase .showtext {
     color: white;
-    text-shadow: 1px 1px orange; }
+    font-size: 2em !important;
+    text-shadow: 1px 1px black; }
 
 .section-introduction .container {
   width: 100%; }
 .section-introduction .landingArticle {
   padding: 5% 28% 6% 28%;
-  background-color: orange;
-  background: linear-gradient(white 0%, orange 125%);
+  background-color: #2196F3;
+  background: linear-gradient(white 0%, #2196F3 125%);
   background-attachment: fixed;
   margin-bottom: 20px;
-  margin-top: 0; }
+  margin-top: 0;
+  opacity: 0.7; }
   .section-introduction .landingArticle h3 {
     width: 80%;
     margin: auto;
@@ -202,7 +204,7 @@ small {
   background-color: whitesmoke;
   min-height: 200px; }
   .section-introduction .articles article h3 .hotArticle span {
-    color: orange;
+    color: #2196F3;
     font-size: 1.2em;
     padding-left: 5px; }
   .section-introduction .articles article h3 .hotArticle:hover {
@@ -221,8 +223,13 @@ small {
   .section-showcase {
     background-position: top; }
     .section-showcase h2 {
-      margin-top: 200px;
+      margin-top: 250px;
       font-size: 2.5em; }
+    .section-showcase .showtext {
+      font-size: 1.4em !important;
+      color: black;
+      text-shadow: 1px 1px white;
+      margin-top: 30px; }
 
   .landingArticle {
     padding: 5% !important; }
@@ -230,7 +237,7 @@ small {
   .articles article {
     padding: 5% !important; } }
 .hotArticle span {
-  color: orange;
+  color: #2196F3;
   font-size: 1.2em;
   padding-left: 5px; }
 
@@ -244,20 +251,20 @@ small {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: orange;
-  border-color: orange; }
+  background-color: #2196F3;
+  border-color: #2196F3; }
 
 a.list-group-item:hover,
 button.list-group-item:hover,
 a.list-group-item:focus,
 button.list-group-item:focus {
-  background-color: orange; }
+  background-color: #2196F3; }
 
 .new {
-  color: orange !important; }
+  color: #2196F3 !important; }
 
 .html i {
-  color: orange !important; }
+  color: #2196F3 !important; }
 
 .css i {
   color: #6699ff !important; }
@@ -278,15 +285,15 @@ button.list-group-item:focus {
   min-height: 60px;
   padding-top: 20px !important; }
 .navbar .navbar-toggle {
-  background-color: orange;
+  background-color: #2196F3;
   margin-top: 15px; }
 
 #nav-brand {
-  color: orange !important; }
+  color: #2196F3 !important; }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  background-color: orange; }
+  background-color: #2196F3; }
 
 .footerWrapper {
   min-height: 300px;
