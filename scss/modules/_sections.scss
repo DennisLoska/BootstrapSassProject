@@ -5,7 +5,7 @@
     text-align: center;
     background-color: whitesmoke;
     margin-bottom: 0;
-    background-image: url(../../img/showcase.jpg);
+    background-image: url({{base}}/BootstrapSassProject/img/showcase.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     h2 {
@@ -21,6 +21,7 @@
         text-shadow: 1px 1px black;
     }
 }
+
 .section-introduction {
     .container {
         width: 100%;
@@ -69,6 +70,7 @@
     }
 }
 
+
 /* Media Queries for mobile devices */
 
 @media screen and (max-width: 800px) {
@@ -87,7 +89,6 @@
     }
     .landingArticle {
         padding: 5% !important;
-
     }
     .articles {
         article {
