@@ -121,13 +121,13 @@ button {
 }
 
 body {
-    background-image: url(../img/wild_oliva_@2X.png);
+    background-image: url("../img/wild_oliva_@2X.png");
     background-attachment: fixed;
     background-repeat: repeat;
 }
 
 body article {
-    background-image: url(../img/lil_fiber_@2X.png);
+    background-image: url("../img/lil_fiber_@2X.png");
     background-attachment: fixed;
     background-repeat: repeat;
 }
@@ -184,7 +184,7 @@ small {
     text-align: center;
     background-color: whitesmoke;
     margin-bottom: 0;
-    background-image: url(../img/showcase.jpg);
+    background-image: url("../img/showcase.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -355,7 +355,7 @@ button.list-group-item:focus {
 .footerWrapper {
     min-height: 300px;
     margin-top: 50px;
-    background-image: url(../img/footer_lodyas.png);
+    background-image: url("../img/footer_lodyas.png");
     background-repeat: repeat;
 }
 
