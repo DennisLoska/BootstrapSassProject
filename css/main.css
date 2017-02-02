@@ -132,37 +132,6 @@ small {
 .landingRow {
   padding: 0 0 0 0; }
 
-.read-more-state {
-  display: none; }
-
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease; }
-
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em; }
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Show more'; }
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less'; }
-
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 0 .5em;
-  color: black;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #2196F3;
-  border-radius: .25em; }
-
 /* different sections of the main-content */
 .section-showcase {
   height: 1000px;
