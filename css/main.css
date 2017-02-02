@@ -92,11 +92,11 @@ button {
   border-radius: 0; }
 
 body {
-  background-image: url(../../img/wild_oliva_@2X.png);
+  background-image: url(../img/wild_oliva_@2X.png);
   background-attachment: fixed;
   background-repeat: repeat; }
   body article {
-    background-image: url(../../img/lil_fiber_@2X.png);
+    background-image: url(../img/lil_fiber_@2X.png);
     background-attachment: fixed;
     background-repeat: repeat; }
 
